@@ -1,0 +1,622 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sendmachine-for-wordpress\n"
+"POT-Creation-Date: 2015-08-19 10:36+0200\n"
+"PO-Revision-Date: 2015-08-19 10:42+0200\n"
+"Language-Team: sendmachine <support@sendmachine.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"Last-Translator: sendmachine <support@sendmachine.com>\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: sendmachine_wp_admin.php:55
+#, php-format
+msgid ""
+"You are about to start a campaign with the following properties:\n"
+"Campaign name: %s\n"
+"Campaign subject: %s\n"
+"Contact list: %s\n"
+"Sender address: %s\n"
+"\n"
+"Agree?"
+msgstr ""
+
+#: sendmachine_wp_admin.php:61
+msgid "Settings"
+msgstr ""
+
+#: sendmachine_wp_admin.php:136
+msgid "Saved!"
+msgstr ""
+
+#: sendmachine_wp_admin.php:177
+msgid "Contact Lists Updated!"
+msgstr ""
+
+#: sendmachine_wp_admin.php:190
+msgid "Contact list saved!"
+msgstr ""
+
+#: sendmachine_wp_admin.php:192
+msgid "Something went wrong. Please retry"
+msgstr ""
+
+#: sendmachine_wp_admin.php:211
+msgid ""
+"Press \"I already confirmed my address\" only after you confirm your account."
+msgstr ""
+
+#: sendmachine_wp_admin.php:220
+#, php-format
+msgid "A confirmation email has been sent to %s."
+msgstr ""
+
+#: sendmachine_wp_admin.php:222
+#, php-format
+msgid ""
+"Something went wrong.For some reason a confirmation email cannnot be sent to "
+"'%s'. Please try again later."
+msgstr ""
+
+#: sendmachine_widget.php:7
+msgid "Allow visitors to subscribe to your contact lists using this widget."
+msgstr ""
+
+#: sendmachine_widget.php:8
+msgid "Sendmachine list subscription"
+msgstr ""
+
+#: sendmachine_widget.php:31
+msgid "Title:"
+msgstr ""
+
+#: includes/sendmachine_subscribe_manager.php:142
+msgid "* mandatory"
+msgstr ""
+
+#: includes/sendmachine_subscribe_manager.php:217
+msgid ""
+"API must be connected and you have to select a list in order to sync your "
+"users."
+msgstr ""
+
+#: includes/sendmachine_subscribe_manager.php:235
+#, php-format
+msgid "Sync complete! %u users were added to your contact list."
+msgstr ""
+
+#: includes/sendmachine_subscribe_manager.php:236
+msgid "Something went wrong. Users not synced."
+msgstr ""
+
+#: includes/sendmachine_feed_manager.php:25
+msgid "No post found.Campaign not created!"
+msgstr ""
+
+#: includes/sendmachine_feed_manager.php:39
+#: includes/sendmachine_feed_manager.php:68
+#: views/wp_sm_general_settings.php:39 views/wp_sm_feed_settings.php:189
+msgid "here"
+msgstr ""
+
+#: includes/sendmachine_feed_manager.php:40
+#, php-format
+msgid ""
+"Campaign saved as draft in your Sendmachine account. Click %s to access it."
+msgstr ""
+
+#: includes/sendmachine_feed_manager.php:45
+msgid "Something went wrong.Campaign could not be tested."
+msgstr ""
+
+#: includes/sendmachine_feed_manager.php:63
+#, php-format
+msgid "Campaign created, but not started. Reported reasons: %s"
+msgstr ""
+
+#: includes/sendmachine_feed_manager.php:69
+#, php-format
+msgid "Campaign started successfully. You can track it by clicking %s."
+msgstr ""
+
+#: includes/sendmachine_feed_manager.php:72
+msgid "For some reason campaign was not started."
+msgstr ""
+
+#: includes/sendmachine_feed_manager.php:79
+msgid "All fields are required."
+msgstr ""
+
+#: includes/sendmachine_feed_manager.php:126
+msgid "Your blog's title"
+msgstr ""
+
+#: includes/sendmachine_feed_manager.php:130
+msgid "Blog's description"
+msgstr ""
+
+#: includes/sendmachine_feed_manager.php:134
+msgid "Administrator's email address"
+msgstr ""
+
+#: includes/sendmachine_feed_manager.php:138
+msgid "Blog URL."
+msgstr ""
+
+#: includes/sendmachine_feed_manager.php:142
+msgid "Display post title.Works only in template body"
+msgstr ""
+
+#: includes/sendmachine_feed_manager.php:146
+msgid "Post url. Works only in template body"
+msgstr ""
+
+#: includes/sendmachine_feed_manager.php:150
+msgid ""
+"Post's content summary.Display first 300 characters of content. Works only "
+"in template body"
+msgstr ""
+
+#: includes/sendmachine_feed_manager.php:154
+msgid "Post's content (full content). Works only in template body"
+msgstr ""
+
+#: includes/sendmachine_feed_manager.php:158
+msgid "Who wrote post. Works only in template body"
+msgstr ""
+
+#: includes/sendmachine_feed_manager.php:162
+msgid "Post publish date. Works only in template body"
+msgstr ""
+
+#: includes/sendmachine_email_manager.php:98
+#, php-format
+msgid "Email to %s sent successfully!"
+msgstr ""
+
+#: includes/sendmachine_email_manager.php:99
+msgid "Something went wrong. Email not sent."
+msgstr ""
+
+#: views/wp_sm_feed_preview.php:6
+msgid "Sendmachine Feed: Template Preview"
+msgstr ""
+
+#: views/wp_sm_feed_preview.php:8
+msgid ""
+"This is a preview of the newsletter that will be sent to your subscribers."
+msgstr ""
+
+#: views/wp_sm_feed_preview.php:11
+msgid "back"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:6
+msgid "List Settings"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:8
+msgid ""
+"To use the Sendmachine sign-up form, setup a list below and then head out to "
+"the widgets page and add the widget to your site.Alternatively you can use "
+"this shortcode <code>[sm_subscribe_form]</code> to display the form inside a "
+"post or page."
+msgstr ""
+
+#: views/wp_sm_list_settings.php:14
+msgid "Refresh cached contact lists"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:20
+msgid "Refresh"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:24
+msgid ""
+"Contact lists do not update each time you visit this page. Click 'refresh' "
+"to update them when needed."
+msgstr ""
+
+#: views/wp_sm_list_settings.php:29
+msgid "List where people will subscribe"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:54 views/wp_sm_feed_settings.php:198
+msgid "Save"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:59
+msgid "AN ERROR OCCURRED"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:61
+msgid "API NOT CONNECTED"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:69
+msgid "Subscribe customization"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:72
+msgid "Hide form after a successful sign-up?"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:77 views/wp_sm_list_settings.php:210
+#: views/wp_sm_email_settings.php:22
+msgid "Yes"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:81 views/wp_sm_list_settings.php:213
+#: views/wp_sm_email_settings.php:26
+msgid "No"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:85
+msgid "Select 'yes' to hide the form fields after a successful sign-up."
+msgstr ""
+
+#: views/wp_sm_list_settings.php:90
+msgid "Redirect to URL after successful sign-up"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:98
+msgid "Successful subscribe message"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:106
+msgid "Subscriber exists message"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:114
+msgid "Not subscribed message"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:125
+msgid "Form fields"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:131
+msgid "Label"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:132
+msgid "Name"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:133
+msgid "Visible"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:164
+msgid "* field is required, can't be hidden"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:174 views/wp_sm_list_settings.php:221
+#: views/wp_sm_email_settings.php:112 views/wp_sm_general_settings.php:62
+msgid "Save Changes"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:179
+msgid "Checkbox settings"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:182
+msgid "Add the checkbox to these forms"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:186
+msgid "Comment form"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:189
+msgid "Register form"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:193
+msgid "Selecting a form will automatically add the sign-up checkbox to it."
+msgstr ""
+
+#: views/wp_sm_list_settings.php:198
+msgid "Checkbox label text"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:206
+msgid "Pre-check the checkbox?"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:217
+msgid ""
+"Be careful with this option.If you check 'yes' people might get subscribed "
+"by accident."
+msgstr ""
+
+#: views/wp_sm_list_settings.php:227
+msgid "Sync WP users"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:233
+msgid "Sync users"
+msgstr ""
+
+#: views/wp_sm_list_settings.php:237
+msgid "Subscribe all your existing users to selected contact list."
+msgstr ""
+
+#: views/wp_sm_email_settings.php:6
+msgid "Email Settings"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:8
+msgid ""
+"If you want your emails to be sent through our service (sendmachine), just "
+"complete the configuration settings bellow and let us do the rest."
+msgstr ""
+
+#: views/wp_sm_email_settings.php:17
+msgid "Enable email sending"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:30
+msgid "Use our services to deliver your emails."
+msgstr ""
+
+#: views/wp_sm_email_settings.php:35
+msgid "From Email"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:44
+msgid ""
+"Email address is not confirmed. You will be able to send emails only after "
+"you confirm it!"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:47
+msgid ""
+"You must enable <b>email sending</b> in order to send yourself a "
+"confirmation email!"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:53
+msgid "Api not connected"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:59
+msgid "From Name"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:67
+msgid "SMTP Encryption"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:72
+msgid "No encryption"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:76
+msgid "SSL encryption"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:80
+msgid "TLS encryption"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:86
+msgid "Track emails"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:93
+msgid "Register"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:101
+msgid "Comment"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:106
+msgid ""
+"Track sent emails using transactional campaigns.Just check the action from "
+"which you want your emails to be tracked and then set a name for your "
+"transactional campaign."
+msgstr ""
+
+#: views/wp_sm_email_settings.php:114
+msgid "I already confirmed my address"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:123
+msgid "SMTP Configuration:"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:124
+msgid "Preview configuration settings."
+msgstr ""
+
+#: views/wp_sm_email_settings.php:129
+msgid "SMTP Host:"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:135
+msgid "This is the SMTP host.You can't change it."
+msgstr ""
+
+#: views/wp_sm_email_settings.php:140
+msgid "SMTP Port:"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:146
+msgid "SMTP Port, dependent of encryption type."
+msgstr ""
+
+#: views/wp_sm_email_settings.php:151
+msgid "Encryption type:"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:157
+msgid "Encryption type."
+msgstr ""
+
+#: views/wp_sm_email_settings.php:167
+msgid "Send test email"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:168
+msgid "Enter a email address to test if settings were applied smoothly."
+msgstr ""
+
+#: views/wp_sm_email_settings.php:173
+msgid "Email To:"
+msgstr ""
+
+#: views/wp_sm_email_settings.php:180
+msgid "Send"
+msgstr ""
+
+#: views/wp_sm_general_settings.php:6
+msgid "Sendmachine For WordPress"
+msgstr ""
+
+#: views/wp_sm_general_settings.php:12
+msgid ""
+"To start using the Sendmachine plugin, we first need to connect your "
+"Sendmachine account. Click login below to connect."
+msgstr ""
+
+#: views/wp_sm_general_settings.php:15
+msgid "Don't have a Sendmachine account?"
+msgstr ""
+
+#: views/wp_sm_general_settings.php:16
+msgid "Create one for free!"
+msgstr ""
+
+#: views/wp_sm_general_settings.php:20
+msgid "API status"
+msgstr ""
+
+#: views/wp_sm_general_settings.php:24
+msgid "CONNECTED"
+msgstr ""
+
+#: views/wp_sm_general_settings.php:27
+msgid "NOT CONNECTED"
+msgstr ""
+
+#: views/wp_sm_general_settings.php:38
+msgid "Get your API credentials from"
+msgstr ""
+
+#: views/wp_sm_general_settings.php:47
+msgid "API USERNAME"
+msgstr ""
+
+#: views/wp_sm_general_settings.php:55
+msgid "API PASSWORD"
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:12
+msgid "Sendmachine Feed"
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:14
+msgid "Send your subscribers a campaign with your latest blog posts."
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:23
+msgid "Campaign Name"
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:31
+msgid "Campaign Subject"
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:39
+msgid "Contact list"
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:62
+msgid "Sender address"
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:84
+msgid "Send Campaign"
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:85
+msgid "Save Draft To Sendmachine"
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:91
+msgid "Template customization"
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:94
+msgid "Number of posts"
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:110
+msgid "Number of posts (descending order) to build campaign's newsletter."
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:115
+msgid "Template width"
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:121
+msgid "Define template's width.Defaults to 600 px."
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:126
+msgid "Template background color"
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:132
+msgid "Define template's background color.Defaults to '#fff' (white)."
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:137
+msgid "Template header"
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:138
+msgid ""
+"Customize template's header. A logo is recommended, but really, there are no "
+"limits."
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:150
+msgid "Template body"
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:151
+#, php-format
+msgid ""
+"Customize template's body. Include at least %s and %s keywords in your body "
+"to build the actual content. (styles WILL be inherited)."
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:163
+msgid "Template footer"
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:164
+msgid ""
+"Customize template's footer. An unsubscribe link is mandatory e.g. <a "
+"href='[[UNSUB_LINK]]'>unsubscribe</a>"
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:177
+msgid "Keyword dictionary: "
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:190
+#, php-format
+msgid "For a list of available Sendmachine macros click %s."
+msgstr ""
+
+#: views/wp_sm_feed_settings.php:199
+msgid "Preview"
+msgstr ""

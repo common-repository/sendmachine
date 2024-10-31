@@ -1,0 +1,719 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sendmachine-for-wordpress\n"
+"POT-Creation-Date: 2016-01-05 16:00+0200\n"
+"PO-Revision-Date: 2016-01-05 16:11+0200\n"
+"Last-Translator: sendmachine <support@sendmachine.com>\n"
+"Language-Team: sendmachine <support@sendmachine.com>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: sendmachine_wp_admin.php:55
+#, php-format
+msgid ""
+"You are about to start a campaign with the following properties:\n"
+"Campaign name: %s\n"
+"Campaign subject: %s\n"
+"Contact list: %s\n"
+"Sender address: %s\n"
+"\n"
+"Agree?"
+msgstr ""
+"Esti pe cale sa incepi o campanie cu urmatoarele caracteristici:\n"
+"Numele campaniei: %s\n"
+"Subiectul campaniei: %s\n"
+"Lista de contacte: %s\n"
+"Adresa de trimitere: %s\n"
+"\n"
+"De acord?"
+
+#: sendmachine_wp_admin.php:61
+msgid "Settings"
+msgstr "Setari"
+
+#: sendmachine_wp_admin.php:70
+msgid "General"
+msgstr "General"
+
+#: sendmachine_wp_admin.php:71
+msgid "Lists"
+msgstr "Liste"
+
+#: sendmachine_wp_admin.php:72
+msgid "Feed"
+msgstr "Flux noutati"
+
+#: sendmachine_wp_admin.php:73 views/wp_sm_email_settings.php:6
+msgid "Email Settings"
+msgstr "Setari Email"
+
+#: sendmachine_wp_admin.php:136
+msgid "Saved!"
+msgstr "Salvat!"
+
+#: sendmachine_wp_admin.php:177
+msgid "Contact Lists Updated!"
+msgstr "Liste de contacte actualizate!"
+
+#: sendmachine_wp_admin.php:190
+msgid "Contact list saved!"
+msgstr "Lista de contacte salvata!"
+
+#: sendmachine_wp_admin.php:192
+msgid "Something went wrong. Please retry"
+msgstr "Ceva nu a decurs cum trebuie. Te rugam incearca din nou"
+
+#: sendmachine_wp_admin.php:211
+msgid ""
+"Press \"I already confirmed my address\" only after you confirm your account."
+msgstr ""
+"Selecteaza \"Am confirmat deja adresa\" numai dupa ce ti-ai confirmat contul."
+
+#: sendmachine_wp_admin.php:220
+#, php-format
+msgid "A confirmation email has been sent to %s."
+msgstr "Un email de confirmare a fost trimis catre %s."
+
+#: sendmachine_wp_admin.php:222
+#, php-format
+msgid ""
+"Something went wrong.For some reason a confirmation email cannnot be sent to "
+"'%s'. Please try again later."
+msgstr ""
+"Ceva nu a mers cum trebuie. Din anumite motive un email de confirmare nu "
+"poate fi trimis catre '%s'. Te rugam sa incerci din nou mai tarziu."
+
+#: sendmachine_widget.php:7
+msgid "Allow visitors to subscribe to your contact lists using this widget."
+msgstr ""
+"Permite vizitatorilor sa se aboneze la listele tale de contacte folosind "
+"acest widget."
+
+#: sendmachine_widget.php:8
+msgid "Sendmachine list subscription"
+msgstr "Abonare lista Sendmachine"
+
+#: sendmachine_widget.php:33
+msgid "Title:"
+msgstr "Titlu:"
+
+#: sendmachine_widget.php:37
+msgid "Description:"
+msgstr "Descrierea blog-ului"
+
+#: includes/sendmachine_subscribe_manager.php:145
+msgid "Subscribe"
+msgstr "Abonare"
+
+#: includes/sendmachine_subscribe_manager.php:219
+msgid ""
+"API must be connected and you have to select a list in order to sync your "
+"users."
+msgstr ""
+"API trebuie sa fie conectat si trebuie sa ai selectata o lista pentru a "
+"putea sincroniza utilizatorii."
+
+#: includes/sendmachine_subscribe_manager.php:237
+#, php-format
+msgid "Sync complete! %u users were added to your contact list."
+msgstr ""
+"Sincronizare completa! %u utilizatori au fost adaugati listei tale de "
+"contacte. "
+
+#: includes/sendmachine_subscribe_manager.php:238
+msgid "Something went wrong. Users not synced."
+msgstr "Ceva nu a mers cum trebuie. Utilizatorii nu au fost sincronizati."
+
+#: includes/sendmachine_defaults.php:13
+msgid "You have been successfully subscribed! Thank you!"
+msgstr "Ai fost abonat cu succes."
+
+#: includes/sendmachine_defaults.php:14
+msgid "You are already subscribed.Thanks anyway."
+msgstr "Esti abonat deja."
+
+#: includes/sendmachine_defaults.php:15
+msgid "Something went wrong, you were not subscribed."
+msgstr "Ceva nu a mers cum trebuie. Utilizatorii nu au fost sincronizati."
+
+#: includes/sendmachine_defaults.php:18
+msgid "Sign me up for the newsletter!"
+msgstr "Aboneaza-ma la newsletter!"
+
+#: includes/sendmachine_feed_manager.php:25
+msgid "No post found.Campaign not created!"
+msgstr "Nici o postare gasita. Campania nu a fost creata!"
+
+#: includes/sendmachine_feed_manager.php:39
+#: includes/sendmachine_feed_manager.php:68
+#: views/wp_sm_general_settings.php:39 views/wp_sm_feed_settings.php:192
+msgid "here"
+msgstr "aici"
+
+#: includes/sendmachine_feed_manager.php:40
+#, php-format
+msgid ""
+"Campaign saved as draft in your Sendmachine account. Click %s to access it."
+msgstr ""
+"Campanie salvata ca draft in contul tau Sendmachine. Click %s pentru a "
+"accesa."
+
+#: includes/sendmachine_feed_manager.php:45
+msgid "Something went wrong.Campaign could not be tested."
+msgstr "Ceva nu a mers cum trebuie. Nu s-a reusit testarea campaniei."
+
+#: includes/sendmachine_feed_manager.php:63
+#, php-format
+msgid "Campaign created, but not started. Reported reasons: %s"
+msgstr "Campanie creeata, dar neinceputa. Motive: %s"
+
+#: includes/sendmachine_feed_manager.php:69
+#, php-format
+msgid "Campaign started successfully. You can track it by clicking %s."
+msgstr "Campanie inceputa cu succes. Poti sa o urmaresti accesand %s. "
+
+#: includes/sendmachine_feed_manager.php:72
+msgid "For some reason campaign was not started."
+msgstr "Din anumite motive campania nu a fost inceputa."
+
+#: includes/sendmachine_feed_manager.php:79
+msgid "All fields are required."
+msgstr "Toate campurile sunt necesare."
+
+#: includes/sendmachine_feed_manager.php:126
+msgid "Your blog's title"
+msgstr "Titlul blog-ului tau"
+
+#: includes/sendmachine_feed_manager.php:130
+msgid "Blog's description"
+msgstr "Descrierea blog-ului"
+
+#: includes/sendmachine_feed_manager.php:134
+msgid "Administrator's email address"
+msgstr "Adresa de email administrator"
+
+#: includes/sendmachine_feed_manager.php:138
+msgid "Blog URL."
+msgstr "URL blog."
+
+#: includes/sendmachine_feed_manager.php:142
+msgid "Display post title.Works only in template body"
+msgstr "Afiseaza titlul postarii. Functioneaza doar in body-ul template-ului"
+
+#: includes/sendmachine_feed_manager.php:146
+msgid "Post url. Works only in template body"
+msgstr "URL post. Functioneaza doar in body-ul template-ului"
+
+#: includes/sendmachine_feed_manager.php:150
+msgid ""
+"Post's content summary.Display first 300 characters of content. Works only "
+"in template body"
+msgstr ""
+"Rezumat continut post. Se afiseaza primele 300 de caractere ale "
+"continutului. Functioneaza doar in body-ul template-ului"
+
+#: includes/sendmachine_feed_manager.php:154
+msgid "Post's content (full content). Works only in template body"
+msgstr ""
+"Continut post (continut complet). FUnctioneaza numai in body-ul template-ului"
+
+#: includes/sendmachine_feed_manager.php:158
+msgid "Who wrote post. Works only in template body"
+msgstr "Autorul post-ului. Functioneaza doar in body-ul template-ului"
+
+#: includes/sendmachine_feed_manager.php:162
+msgid "Post publish date. Works only in template body"
+msgstr "Data publicare articol. Functioneaza doar in body-ul template-ului"
+
+#: includes/sendmachine_email_manager.php:98
+#, php-format
+msgid "Email to %s sent successfully!"
+msgstr "Email catre %s trimis cu succes!"
+
+#: includes/sendmachine_email_manager.php:99
+msgid "Something went wrong. Email not sent."
+msgstr "Ceva nu a mers cum trebuie. Trimitere de email esuata."
+
+#: views/wp_sm_feed_preview.php:6
+msgid "Sendmachine Feed: Template Preview"
+msgstr "Feed Sendmachine: Previzualizare Template"
+
+#: views/wp_sm_feed_preview.php:8
+msgid ""
+"This is a preview of the newsletter that will be sent to your subscribers."
+msgstr ""
+"Aceasta este o previzualizare a newsletter-ului care va fi trimis abonatilor."
+
+#: views/wp_sm_feed_preview.php:11
+msgid "back"
+msgstr "inapoi"
+
+#: views/wp_sm_list_settings.php:6
+msgid "List Settings"
+msgstr "Setari Lista"
+
+#: views/wp_sm_list_settings.php:8
+msgid ""
+"To use the Sendmachine sign-up form, setup a list below and then head out to "
+"the widgets page and add the widget to your site.Alternatively you can use "
+"this shortcode <code>[sm_subscribe_form]</code> to display the form inside a "
+"post or page."
+msgstr ""
+"Pentru a utiliza formularul de inscriere Sendmachine, seteaza mai jos o "
+"lista apoi mergi la pagina de widget-uri si adauga unul pe site-ul tau. Ca "
+"alternativa poti folosi acest cod <code>[sm_subscribe_form]</code> pentru a "
+"afisa formularul intr-un post sau pe o pagina."
+
+#: views/wp_sm_list_settings.php:14
+msgid "Refresh cached contact lists"
+msgstr "Actualizare cache liste de contacte"
+
+#: views/wp_sm_list_settings.php:20
+msgid "Refresh"
+msgstr "Actualizare"
+
+#: views/wp_sm_list_settings.php:24
+msgid ""
+"Contact lists do not update each time you visit this page. Click 'refresh' "
+"to update them when needed."
+msgstr ""
+"Listele de contacte nu se actualizeaza de fiecare data cand vizitezi aceasta "
+"pagina. Click pe 'actualizare' cand doresti acest lucru. "
+
+#: views/wp_sm_list_settings.php:29
+msgid "List where people will subscribe"
+msgstr "Lista la care se vor abona persoanele"
+
+#: views/wp_sm_list_settings.php:54 views/wp_sm_feed_settings.php:201
+msgid "Save"
+msgstr "Salveaza"
+
+#: views/wp_sm_list_settings.php:59
+msgid "AN ERROR OCCURRED"
+msgstr "A APARUT O EROARE"
+
+#: views/wp_sm_list_settings.php:61
+msgid "API NOT CONNECTED"
+msgstr "API nu este conectat"
+
+#: views/wp_sm_list_settings.php:69
+msgid "Subscribe customization"
+msgstr "Personalizare abonare"
+
+#: views/wp_sm_list_settings.php:72
+msgid "Hide form after a successful sign-up?"
+msgstr "Ascunde formular dupa o inscriere reusita?"
+
+#: views/wp_sm_list_settings.php:77 views/wp_sm_list_settings.php:210
+#: views/wp_sm_email_settings.php:22
+msgid "Yes"
+msgstr "Da"
+
+#: views/wp_sm_list_settings.php:81 views/wp_sm_list_settings.php:213
+#: views/wp_sm_email_settings.php:26
+msgid "No"
+msgstr "Nu"
+
+#: views/wp_sm_list_settings.php:85
+msgid "Select 'yes' to hide the form fields after a successful sign-up."
+msgstr ""
+"Selecteaza 'da' pentru a ascunde campurile formularului dupa o inscriere "
+"reusita."
+
+#: views/wp_sm_list_settings.php:90
+msgid "Redirect to URL after successful sign-up"
+msgstr "Redirectionare catre URL dupa inscriere reusita"
+
+#: views/wp_sm_list_settings.php:98
+msgid "Successful subscribe message"
+msgstr "Mesaj abonare reusita"
+
+#: views/wp_sm_list_settings.php:106
+msgid "Subscriber exists message"
+msgstr "Mesaj abonat existent"
+
+#: views/wp_sm_list_settings.php:114
+msgid "Not subscribed message"
+msgstr "Mesaj abonare esuata"
+
+#: views/wp_sm_list_settings.php:125
+msgid "Form fields"
+msgstr "Campuri formular"
+
+#: views/wp_sm_list_settings.php:131
+msgid "Label"
+msgstr "Eticheta"
+
+#: views/wp_sm_list_settings.php:132
+msgid "Name"
+msgstr "Nume"
+
+#: views/wp_sm_list_settings.php:133
+msgid "Visible"
+msgstr "Vizibil"
+
+#: views/wp_sm_list_settings.php:164
+msgid "* field is required, can't be hidden"
+msgstr "* camp obligatoriu, nu poate fi ascuns"
+
+#: views/wp_sm_list_settings.php:174 views/wp_sm_list_settings.php:221
+#: views/wp_sm_email_settings.php:112 views/wp_sm_general_settings.php:64
+msgid "Save Changes"
+msgstr "Salveaza Modificari"
+
+#: views/wp_sm_list_settings.php:179
+msgid "Checkbox settings"
+msgstr "Setari checkbox"
+
+#: views/wp_sm_list_settings.php:182
+msgid "Add the checkbox to these forms"
+msgstr "Adauga checkbox-ul la aceste formulare"
+
+#: views/wp_sm_list_settings.php:186
+msgid "Comment form"
+msgstr "Formular comentariu"
+
+#: views/wp_sm_list_settings.php:189
+msgid "Register form"
+msgstr "Formular inregistrare"
+
+#: views/wp_sm_list_settings.php:193
+msgid "Selecting a form will automatically add the sign-up checkbox to it."
+msgstr ""
+"Prin selectarea unui formular se adauga automat acestuia checkbox-ul pentru "
+"inscriere."
+
+#: views/wp_sm_list_settings.php:198
+msgid "Checkbox label text"
+msgstr "Text checkbox"
+
+#: views/wp_sm_list_settings.php:206
+msgid "Pre-check the checkbox?"
+msgstr "Checkbox selectat automat"
+
+#: views/wp_sm_list_settings.php:217
+msgid ""
+"Be careful with this option.If you check 'yes' people might get subscribed "
+"by accident."
+msgstr ""
+"Fi atent cu aceasta optiune. Daca selectezi 'da' persoanele pot fi abonate "
+"din greseala."
+
+#: views/wp_sm_list_settings.php:227
+msgid "Sync WP users"
+msgstr "Sincronizeaza utilizatorii WP"
+
+#: views/wp_sm_list_settings.php:233
+msgid "Sync users"
+msgstr "Sincronizeaza utilizatori"
+
+#: views/wp_sm_list_settings.php:237
+msgid "Subscribe all your existing users to selected contact list."
+msgstr "Aboneaza  toti utilizatorii existenti la lista de contacte selectata."
+
+#: views/wp_sm_email_settings.php:8
+msgid ""
+"If you want your emails to be sent through our service (sendmachine), just "
+"complete the configuration settings bellow and let us do the rest."
+msgstr ""
+"Daca vrei ca email-urile tale sa fie trimise prin serviciul nostru "
+"(Sendmachine), doar completeaza mai jos setarile de configurare si lasa-ne "
+"pe noi sa ne ocupam de restul."
+
+#: views/wp_sm_email_settings.php:17
+msgid "Enable email sending"
+msgstr "Activeaza trimiterea de email-uri"
+
+#: views/wp_sm_email_settings.php:30
+msgid "Use our services to deliver your emails."
+msgstr "Utilizeaza serviciile noastre pentru a trimite email-urile tale."
+
+#: views/wp_sm_email_settings.php:35
+msgid "From Email"
+msgstr "Email From"
+
+#: views/wp_sm_email_settings.php:44
+msgid ""
+"Email address is not confirmed. You will be able to send emails only after "
+"you confirm it!"
+msgstr ""
+"Adresa de email nu este confirmata. Vei putea sa trimiti email-uri doar dupa "
+"ce o vei confirma!"
+
+#: views/wp_sm_email_settings.php:47
+msgid ""
+"You must enable <b>email sending</b> in order to send yourself a "
+"confirmation email!"
+msgstr ""
+"Trebuie sa activezi <b>trimitere de email</b> pentru a putea sa iti trimiti "
+"un email de confirmare!"
+
+#: views/wp_sm_email_settings.php:53
+msgid "Api not connected"
+msgstr "API nu este conectat"
+
+#: views/wp_sm_email_settings.php:59
+msgid "From Name"
+msgstr "Nume From"
+
+#: views/wp_sm_email_settings.php:67
+msgid "SMTP Encryption"
+msgstr "Criptare SMTP"
+
+#: views/wp_sm_email_settings.php:72
+msgid "No encryption"
+msgstr "Fara criptare"
+
+#: views/wp_sm_email_settings.php:76
+msgid "SSL encryption"
+msgstr "Criptare SSL"
+
+#: views/wp_sm_email_settings.php:80
+msgid "TLS encryption"
+msgstr "Criptare TLS"
+
+#: views/wp_sm_email_settings.php:86
+msgid "Track emails"
+msgstr "Urmareste email-urile"
+
+#: views/wp_sm_email_settings.php:93
+msgid "Register"
+msgstr "Inregistrare"
+
+#: views/wp_sm_email_settings.php:101
+msgid "Comment"
+msgstr "Comentariu"
+
+#: views/wp_sm_email_settings.php:106
+msgid ""
+"Track sent emails using transactional campaigns.Just check the action from "
+"which you want your emails to be tracked and then set a name for your "
+"transactional campaign."
+msgstr ""
+"Urmareste email-urile trimise folosind campanii tranzactionale. Selecteaza "
+"actiunea in urma careia vrei ca email-urile tale sa fie urmarite apoi "
+"completeaza numele campaniei tranzactionale."
+
+#: views/wp_sm_email_settings.php:114
+msgid "I already confirmed my address"
+msgstr "Mi-am configurat deja adresa"
+
+#: views/wp_sm_email_settings.php:123
+msgid "SMTP Configuration:"
+msgstr "Configurare SMTP:"
+
+#: views/wp_sm_email_settings.php:124
+msgid "Preview configuration settings."
+msgstr "Previzualizare setari de configurare."
+
+#: views/wp_sm_email_settings.php:129
+msgid "SMTP Host:"
+msgstr "Host SMTP:"
+
+#: views/wp_sm_email_settings.php:135
+msgid "This is the SMTP host.You can't change it."
+msgstr "Acesta este host-ul SMTP. Nu il poti modifica."
+
+#: views/wp_sm_email_settings.php:140
+msgid "SMTP Port:"
+msgstr "Port SMTP:"
+
+#: views/wp_sm_email_settings.php:146
+msgid "SMTP Port, dependent of encryption type."
+msgstr "Port SMTP, depinde de tipul criptarii."
+
+#: views/wp_sm_email_settings.php:151
+msgid "Encryption type:"
+msgstr "Tipul criptarii:"
+
+#: views/wp_sm_email_settings.php:157
+msgid "Encryption type."
+msgstr "Tipul  criptarii."
+
+#: views/wp_sm_email_settings.php:167
+msgid "Send test email"
+msgstr "Trimite email de test"
+
+#: views/wp_sm_email_settings.php:168
+msgid "Enter a email address to test if settings were applied smoothly."
+msgstr ""
+"Introduce o adresa de email pentru a testa daca setarile au fost aplicate "
+"fara probleme."
+
+#: views/wp_sm_email_settings.php:173
+msgid "Email To:"
+msgstr "Email To:"
+
+#: views/wp_sm_email_settings.php:180
+msgid "Send"
+msgstr "Trimite"
+
+#: views/wp_sm_general_settings.php:6
+msgid "Sendmachine For WordPress"
+msgstr "Sendmachine pentru WordPress"
+
+#: views/wp_sm_general_settings.php:12
+msgid ""
+"To start using the Sendmachine plugin, we first need to connect your "
+"Sendmachine account. Click login below to connect."
+msgstr ""
+"Pentru a incepe sa folosesti plugin-ul Sendmachine, in primul rand trebuie "
+"sa conectam contul tau Sendmachine. Click mai jos pe autentificare pentru a "
+"conecta."
+
+#: views/wp_sm_general_settings.php:15
+msgid "Don't have a Sendmachine account?"
+msgstr "Nu ai cont Sendmachine?"
+
+#: views/wp_sm_general_settings.php:16
+msgid "Create one for free!"
+msgstr "Creeaza unul gratuit!"
+
+#: views/wp_sm_general_settings.php:20
+msgid "API status"
+msgstr "Status API"
+
+#: views/wp_sm_general_settings.php:24
+msgid "CONNECTED"
+msgstr "CONECTAT"
+
+#: views/wp_sm_general_settings.php:27
+msgid "NOT CONNECTED"
+msgstr "NU ESTE CONECTAT"
+
+#: views/wp_sm_general_settings.php:38
+msgid "Get your API credentials from"
+msgstr "Datele de autentificare API le gasesti"
+
+#: views/wp_sm_general_settings.php:47
+msgid "API USERNAME"
+msgstr "UTILIZATOR API"
+
+#: views/wp_sm_general_settings.php:56
+msgid "API PASSWORD"
+msgstr "PAROLA API"
+
+#: views/wp_sm_feed_settings.php:12
+msgid "Sendmachine Feed"
+msgstr "Feed Sendmachine"
+
+#: views/wp_sm_feed_settings.php:14
+msgid "Send your subscribers a campaign with your latest blog posts."
+msgstr "Trimite abonatilor o campanie cu ultimele postari pe blog."
+
+#: views/wp_sm_feed_settings.php:23
+msgid "Campaign Name"
+msgstr "Numele campaniei"
+
+#: views/wp_sm_feed_settings.php:31
+msgid "Campaign Subject"
+msgstr "Subiectul campaniei"
+
+#: views/wp_sm_feed_settings.php:39
+msgid "Contact list"
+msgstr "Lista de contacte"
+
+#: views/wp_sm_feed_settings.php:65
+msgid "Sender address"
+msgstr "Adresa de trimitere"
+
+#: views/wp_sm_feed_settings.php:87
+msgid "Send Campaign"
+msgstr "Trimite Campanie"
+
+#: views/wp_sm_feed_settings.php:88
+msgid "Save Draft To Sendmachine"
+msgstr "Salveaza draft in Sendmachine"
+
+#: views/wp_sm_feed_settings.php:94
+msgid "Template customization"
+msgstr "Personalizare template"
+
+#: views/wp_sm_feed_settings.php:97
+msgid "Number of posts"
+msgstr "Numar de post-uri"
+
+#: views/wp_sm_feed_settings.php:113
+msgid "Number of posts (descending order) to build campaign's newsletter."
+msgstr ""
+"Numarul de post-uri (ordine descrescatoare) pentru a realiza newsletter-ul "
+"campaniei."
+
+#: views/wp_sm_feed_settings.php:118
+msgid "Template width"
+msgstr "Latime template"
+
+#: views/wp_sm_feed_settings.php:124
+msgid "Define template's width.Defaults to 600 px."
+msgstr "Seteaza latimea (width) template-ului. Implicit este 600px. "
+
+#: views/wp_sm_feed_settings.php:129
+msgid "Template background color"
+msgstr "Culoarea de fundal a template-ului "
+
+#: views/wp_sm_feed_settings.php:135
+msgid "Define template's background color.Defaults to '#fff' (white)."
+msgstr ""
+"Seteaza culoarea de fundal a template-ului. Cea implicita este '#fff' (alb)."
+
+#: views/wp_sm_feed_settings.php:140
+msgid "Template header"
+msgstr "Header template"
+
+#: views/wp_sm_feed_settings.php:141
+msgid ""
+"Customize template's header. A logo is recommended, but really, there are no "
+"limits."
+msgstr ""
+"Personalizeaza header-ul template-ului. Este recomandat sa adaugi un logo, "
+"dar sincer, nu sunt limite."
+
+#: views/wp_sm_feed_settings.php:153
+msgid "Template body"
+msgstr "Body template"
+
+#: views/wp_sm_feed_settings.php:154
+#, php-format
+msgid ""
+"Customize template's body. Include at least %s and %s keywords in your body "
+"to build the actual content. (styles WILL be inherited)."
+msgstr ""
+"Personalizeaza body-ul template-ului. Include cel putin %s si %s cuvinte in "
+"body pentru a construi efectiv continutul. (designul VA FI preluat)."
+
+#: views/wp_sm_feed_settings.php:166
+msgid "Template footer"
+msgstr "Footer template"
+
+#: views/wp_sm_feed_settings.php:167
+msgid ""
+"Customize template's footer. An unsubscribe link is mandatory e.g. <a "
+"href='[[UNSUB_LINK]]'>unsubscribe</a>"
+msgstr ""
+"Personalizeaza footer-ul template-ului. Link-ul pentru dezabonare este "
+"obligatoriu ex. <a href='[[UNSUB_LINK]]'>dezabonare</a>"
+
+#: views/wp_sm_feed_settings.php:180
+msgid "Keyword dictionary: "
+msgstr "Dictionar termeni:"
+
+#: views/wp_sm_feed_settings.php:193
+#, php-format
+msgid "For a list of available Sendmachine macros click %s."
+msgstr "Pentru lista cu macro-urile Sendmachine disponibile click %s."
+
+#: views/wp_sm_feed_settings.php:202
+msgid "Preview"
+msgstr "Previzualizare"
+
+#~ msgid "* mandatory"
+#~ msgstr "* obligatoriu"
+
+#~ msgid "Customize template's body. Include at least "
+#~ msgstr "Personalizeaza body-ul template-ului. Include cel putin"

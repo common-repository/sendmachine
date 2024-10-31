@@ -1,0 +1,135 @@
+.sm_wrapper h3{
+	padding:8px;
+	font-size:20px;
+	border-bottom:1px solid #ddd;
+}
+.sendmachine_settings{
+
+}
+.sendmachine_settings .api_credentials{
+	width:300px;
+}
+.sm_api_status_wrapper .sm_api_status_description{
+	display: inline-block;
+	padding: 3px 6px;
+	font-size: 13px;
+	font-weight: 700;
+}
+.sm_api_status_wrapper .sm_api_status{
+	display: inline-block;
+	margin-left: 1em;
+	padding: 3px 6px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+}
+.sm_api_status_wrapper .connected{
+	background-color:#31B404;
+}
+.sm_api_status_wrapper .offline{
+	background-color:grey;
+}
+
+.sm_list_api_not_connected{
+	text-decoration:none;
+	background-color:grey;
+	display:inline-block;
+	color:white;
+	padding:3px;
+	font-weight: bold;
+}
+.sm_list_api_not_connected:hover{
+	text-decoration:none;
+	color:white;
+}
+.list_sm_table{
+	/*max-width:772px;*/
+	/*max-width:800px;*/
+}
+.list_sm_table .sm_row_title{
+	text-align: left;
+	padding: 20px 10px 20px 0;
+	width: 200px;
+	font-weight: 600;
+	width:200px;
+}
+.list_sm_table .sm_row_content{
+	width:120px;
+}
+.list_sm_table .sm_row_content .breathe_through_elements{
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.list_sm_table .hold_top{
+	padding-top:0px;
+	vertical-align:top;
+}
+.list_sm_table .sm_row_content_merged{
+	width:463px;
+}
+.list_sm_table .sm_row_content_master{
+	width:681px;
+}
+.list_sm_table .sm_full{
+	width:100%;
+}
+.list_sm_table .sm_row_description{
+	width:290px;
+	font-style: italic;
+	font-size:11px;
+	padding-left:50px;
+}
+.sm_list_select{
+	width:80%;
+}
+.sm_list_button{
+	width:18%;
+	text-align:center;
+}
+.sm_list_fields_settings{
+	border-left:1px solid lightgrey;
+	margin-top:20px;
+	width:100%;
+}
+.sm_list_fields_settings thead td{
+	padding:0px 10px 10px 10px;
+	font-weight: bold;
+	font-size:15px;
+}
+.sm_list_fields_settings tbody td{
+	padding:10px;
+	border-top:1px solid lightgrey;
+}
+.sm_wp_display_exceptions{
+	width:80%;
+	/*clear:right;*/
+	float:right;
+	text-align:center;
+	padding:10px;
+	margin: 20px 20px 10px 180px;
+	border:1px solid lightgrey;
+	border-radius:5px;
+	background-color:white;
+}
+.track_email_input{
+	float:right;
+	width:70%;
+}
+.general_sm_description{
+	font-style: italic;
+}
+.sm_feed_header{
+	margin-top:30px;
+	font-size:16px;
+	font-weight:bold;
+}
+.sm_feed_description{
+	font-style: italic;
+}
+.sm_keywords_ul{
+	list-style: square;
+	padding-left: 40px;
+}
+.sm_keywords_title{
+	font-size:16px;
+}

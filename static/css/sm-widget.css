@@ -1,0 +1,23 @@
+.sendmachine_wp_subscribe .success{
+	margin-top:5px;
+	padding: 10px;
+	border: 1px solid #31B404;
+	border-radius: 3px;
+	background-color: #dff0d8;
+}
+.sendmachine_wp_subscribe .error{
+	margin-top:5px;
+	padding: 10px;
+	border: 1px solid red;
+	border-radius: 3px;
+	background-color: pink;
+}
+.sendmachine_wp_subscribe .sm_list_dropdown{
+	width:100%;
+}
+.sendmachine_wp_subscribe .sm_wp_form_label{
+	display: block;
+}
+.sendmachine_wp_subscribe .sm_wp_input_group{
+	margin-bottom: 20px;
+}
